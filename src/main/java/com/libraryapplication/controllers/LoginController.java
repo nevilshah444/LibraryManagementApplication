@@ -56,7 +56,7 @@ public class LoginController {
 	}
 
 	@RequestMapping("")
-	public String newUser(Model model) {
+	public String oldUser(Model model) {
 		return "/login.html";	
 	}
 	
